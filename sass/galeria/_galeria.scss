@@ -1,0 +1,23 @@
+#galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:   repeat(2, 300px);
+}
+
+#galeria img{
+    width: 600px;
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    #galeria {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    #galeria img{
+        width: 400px;
+        height: 400px;
+    }
+}
