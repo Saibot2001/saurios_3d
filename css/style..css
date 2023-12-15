@@ -1,6 +1,7 @@
 /*ESTILOS DEL BODY*/
 body {
   background-image: url(../images/imagenes/fondo.jpg);
+  object-fit: cover;
 }
 
 main {
@@ -171,6 +172,13 @@ main {
   margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+  .mapas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .puntosEntrega h2 {
   margin-bottom: 30px;
 }
