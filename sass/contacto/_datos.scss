@@ -1,0 +1,55 @@
+.contactos article{
+
+    display: flex;
+    margin: 10%;
+    }
+
+.contactos img{
+    height: 50px;
+    border: 100px;
+    
+}
+
+.contactos h2{
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.puntosEntrega h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.mapas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    @media (max-width: 768px)
+    {
+        .mapas
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;  
+        }
+    }
+    .puntosEntrega h2{
+        margin-bottom: 30px;
+    }
+    
+#banner .nosotros{
+    position: absolute;
+    padding: 10px;
+    margin: 50px;
+    background-color: green;
+}
+
+#banner .imagen{
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+}

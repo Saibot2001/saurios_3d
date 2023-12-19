@@ -1,0 +1,51 @@
+
+#header {
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+
+
+#navBar{    
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navBar ul li a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    transition: .5s;
+}
+
+#navBar ul {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+
+#navBar img {
+    width: 100px;
+    border-radius: 100%;
+    }
+
+    #navBar ul a:hover {
+        font-size: 25px;
+        transition: .5s;
+    }
+
+    @media (max-width: 768px) {
+    
+        #navBar img {
+            width: 50px;
+            border-radius: 100%;
+            }
+    
+        }
