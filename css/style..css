@@ -191,15 +191,6 @@ main {
   height: 300px;
 }
 
-@media (max-width: 768px) {
-  #materiales h1 {
-    color: aqua;
-  }
-  #materiales div {
-    height: 300px;
-    display: flex;
-  }
-}
 .productosBox {
   margin-top: 50px;
   display: flex;

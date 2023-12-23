@@ -37,7 +37,6 @@
     color: purple;
     font-size: 40px;
     border-radius: 20px;
-    ;
 }
 #materiales p{
     background-color: rgba(255, 255, 255, 0.404);
@@ -68,14 +67,4 @@
 
 #materiales carouselExampleCaptions {
     height: 300px;
-}
-@media (max-width: 768px) {
-    #materiales h1{
-        color: aqua;
-        
-    }
-    #materiales div{
-        height: 300px;
-        display: flex;
-    }
 }
