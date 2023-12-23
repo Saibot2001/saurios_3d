@@ -1,0 +1,38 @@
+#banner{
+    margin-top: 80px;
+}
+
+#banner .nosotros{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.363);
+    text-align: center;
+}
+
+#banner .nosotros h1{
+    font-size: 60px;
+
+}
+
+#banner .nosotros p{
+    font-size: 40px;
+}
+
+#impresora{
+    display: flex;
+    flex-direction: row;
+}
+
+#impresora img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 0px;
+
+}
+#impresora specsImpresora{
+    margin-left: 20px;
+}
