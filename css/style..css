@@ -138,6 +138,7 @@ main {
 
 #materiales {
   display: flex;
+  display: block;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -280,6 +281,31 @@ main {
   position: absolute;
   text-align: center;
   margin-top: 100px;
+}
+
+form.form-contacto {
+  display: table;
+  background-color: rgba(128, 0, 128, 0.397);
+  padding: 20px;
+  border-radius: 10%;
+}
+
+div.form-contacto {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.formContacto {
+  margin-left: 20px;
 }
 
 * {

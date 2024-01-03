@@ -15,11 +15,13 @@
     border-radius: 20px;
 }
 #materiales {
-    display: flex;
+    display: flex; 
+    display: block;
     text-align: center;
     align-items: center;
     flex-direction: column;
     }
+
 
 #materiales img{
     border-radius: 50px;
